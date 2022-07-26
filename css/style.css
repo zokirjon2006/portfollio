@@ -1,0 +1,436 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/**********************
+***********************
+***********************
+********header*********
+***********************
+***********************
+***********************/
+header {
+  margin-top: 100px;
+  /**********************
+  ***********************
+  ***********************
+  ********Navbar*********
+  ***********************
+  ***********************
+  ***********************/
+}
+header .Navbar {
+  content: " ";
+  width: 100%;
+  height: 75px;
+  background-color: white;
+  position: fixed;
+  align-items: center;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  margin-top: -100px;
+}
+@media screen and (max-width: 1100px) {
+  header .Navbar h1 {
+    margin-left: 0px !important;
+  }
+  header .Navbar ul {
+    margin-left: 100px !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  header .Navbar ul .a, header .Navbar .btn {
+    display: none;
+  }
+}
+header .Navbar .aa {
+  margin-left: 80%;
+  font-size: 18pt;
+}
+@media screen and (min-width: 992px) {
+  header .Navbar .aa {
+    display: none;
+  }
+}
+header .Navbar .btn2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 500px;
+  margin-left: 90%;
+  margin-top: 530px;
+  position: absolute;
+}
+@media screen and (max-width: 768px) {
+  header .Navbar .btn2 {
+    margin-left: 90%;
+  }
+}
+@media screen and (max-width: 430px) {
+  header .Navbar .btn2 {
+    margin-left: 85%;
+  }
+}
+@media screen and (max-width: 290px) {
+  header .Navbar .btn2 {
+    margin-left: 80%;
+    margin-top: 500px;
+  }
+}
+header .Navbar h1 {
+  margin-left: 100px;
+  cursor: pointer;
+}
+@media screen and (max-width: 220px) {
+  header .Navbar h1 {
+    margin-left: 0px;
+  }
+}
+header .Navbar ul {
+  margin-top: -43px;
+  margin-left: 30%;
+}
+@media screen and (max-width: 1250px) {
+  header .Navbar ul {
+    margin-left: 200px;
+  }
+}
+header .Navbar ul .btn-primary {
+  margin-left: 20px;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+}
+header .Navbar ul a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: #004d73;
+}
+header .Navbar ul a:hover {
+  color: blue;
+}
+header nav {
+  margin-top: 100px;
+}
+header nav .d {
+  float: right;
+}
+header nav .d1 {
+  margin-top: 50px;
+  float: left;
+}
+header nav .d1 p {
+  margin-top: 20px;
+  font-size: 20pt;
+}
+header nav .d1 .btn {
+  width: 150px;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 75px;
+  cursor: pointer;
+  border: 2px solid #00a4e4;
+}
+header nav .d1 .btn:hover {
+  color: white;
+  background-color: #00a4e4;
+}
+
+main {
+  height: 3500px;
+  /**********************
+  ***********************
+  ***********************
+  ********ABOUT US*******
+  ***********************
+  ***********************
+  ***********************/
+}
+main #s .row div h1 {
+  font-size: 50px;
+}
+main #s .row div p {
+  font-size: 20pt;
+}
+main #s .row div .btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 75px;
+  cursor: pointer;
+  border: 2px solid #00a4e4;
+}
+main #s .row div .btn:hover {
+  color: white;
+  background-color: #00a4e4;
+}
+main #s .d {
+  width: 100%;
+  background-color: #f3f9fd;
+  margin-left: 30px;
+  align-items: center;
+  margin-top: 50px;
+}
+main #s .d div {
+  margin-left: 0px;
+}
+main #s .d div img {
+  width: 55%;
+}
+main #About {
+  margin-top: 50px;
+}
+main #About .div .row .btn {
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 75px;
+  cursor: pointer;
+  border: 2px solid #00a4e4;
+}
+main #About .div .row .btn:hover {
+  color: white;
+  background-color: #00a4e4;
+}
+main #SERVICES {
+  margin-top: 50px;
+}
+main #SERVICES .row div {
+  align-items: center;
+}
+main #SERVICES .row div div {
+  height: 300px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+main #SERVICES .row div div:hover {
+  background-color: #00a4e4;
+}
+main #SERVICES .row div div:hover button {
+  background-color: white;
+  color: #00a4e4;
+}
+main #SERVICES .row div div h1 {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+main #SERVICES .row div div p {
+  width: 65%;
+  margin-left: 20px;
+}
+main #SERVICES .row div div button {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 60px;
+  height: 60px;
+  border: 0px;
+  background-color: #00a4e4;
+  color: white;
+  border-radius: 50%;
+}
+main #SERVICES .row div div button i {
+  font-size: 20pt;
+}
+main .div3 {
+  margin-top: 50px;
+}
+main .div3 .row div {
+  margin-top: 20px;
+}
+main .div3 .row div:hover button {
+  background-color: #00a4e4;
+  color: white;
+}
+main .div3 .row div:hover button p a i {
+  color: white;
+}
+main .div3 .row div button {
+  width: 90%;
+  height: 150px;
+  margin-left: 5%;
+  margin-top: 200px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: white;
+}
+main .div3 .row div button h1 {
+  font-size: 17pt;
+}
+main .div3 .row div button p {
+  margin-top: -20px;
+}
+main .div3 .row div button p a i {
+  margin-top: -10px;
+  font-size: 10pt;
+}
+main #FEATURES .row {
+  align-items: center;
+}
+main #FEATURES .row .col-xl-3 {
+  align-items: center;
+  justify-content: space-evenly;
+}
+main #FEATURES .row .col-xl-3 div {
+  align-items: center;
+  background-color: #f6f6f6;
+  height: 70px;
+  margin-top: 30px;
+  margin-left: 5%;
+}
+main #FEATURES .row .col-xl-3 div:hover {
+  background-color: #e2f3fa;
+}
+main #TESTIMONIALS {
+  background-color: #e2f3fa;
+}
+main #TESTIMONIALS .row div {
+  margin-top: 30px;
+}
+main #TESTIMONIALS .row div img {
+  width: 80px;
+  height: 80px;
+  border-radius: 3px;
+  margin-left: 5%;
+}
+main #TESTIMONIALS .row div button {
+  width: 75%;
+  background-color: #e6e6e6;
+  border-radius: 3px;
+  border: 0px;
+}
+main #TESTIMONIALS .row div button h1 {
+  font-size: 18pt;
+}
+main #PORTFOLIO {
+  margin-top: 50px;
+}
+main #PORTFOLIO .row .col-xl-4 img {
+  margin-top: 20px;
+}
+main #PORTFOLIO .row .div {
+  margin-left: 41%;
+}
+main #PORTFOLIO .row .div a {
+  margin-left: 2%;
+  text-decoration: none;
+}
+main #TEAM {
+  margin-top: 50px;
+}
+main #TEAM .row .col-xl-3 img {
+  border-radius: 5px 5px 0px 0px;
+}
+main #TEAM .row .col-xl-3 button {
+  width: 100%;
+  border: 0px;
+  background-color: white;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+main #TEAM .row .col-xl-3 button h1 {
+  font-size: 18pt;
+}
+main #PRICING {
+  margin-top: 50px;
+}
+main #PRICING .row .col-xl-4 {
+  align-items: center;
+  margin-top: 20px;
+}
+main #PRICING .row .col-xl-4 .bt {
+  width: 90%;
+  background-color: #f9f9f9;
+  border: 0px;
+  border-radius: 5px;
+}
+main #PRICING .row .col-xl-4 .bt a {
+  width: 45%;
+  height: 45px;
+  border: 2px solid #00a4e4;
+  background-color: white;
+  border-radius: 22px;
+  color: #00a4e4;
+}
+main #PRICING .row .col-xl-4 .bt a:hover {
+  background-color: #00a4e4;
+  color: white;
+}
+main #PRICING .row .col-xl-4 .bt h1 {
+  font-size: 15pt;
+}
+main #PRICING .row .col-xl-4 .bt h2 {
+  font-size: 32pt;
+  color: #00a4e4;
+}
+main #PRICING .row .col-xl-4 .bt h2 span {
+  font-size: 15pt;
+  margin-top: 10px;
+}
+main #PRICING .row .col-xl-4 .btt {
+  width: 90%;
+  background-color: #f9f9f9;
+  border: 2px solid #00a4e4;
+  border-radius: 5px;
+}
+main #PRICING .row .col-xl-4 .btt h1 {
+  font-size: 15pt;
+}
+main #PRICING .row .col-xl-4 .btt h2 {
+  font-size: 32pt;
+  color: #00a4e4;
+}
+main #PRICING .row .col-xl-4 .btt h2 span {
+  font-size: 15pt;
+  margin-top: 10px;
+}
+main #PRICING .row .col-xl-4 .btt a {
+  width: 45%;
+  height: 45px;
+  border-radius: 22px;
+}
+main #FREQUENTLY {
+  margin-top: 50px;
+}
+main #FREQUENTLY .div h1 {
+  margin-left: 25%;
+}
+main #CONTACT .row .d button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #00a4e4;
+  border-radius: 50%;
+  background-color: white;
+  color: #00a4e4;
+}
+main #CONTACT .row .d button:hover {
+  background-color: #00a4e4;
+  color: white;
+}
+main #CONTACT .row .d2 input {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+main #CONTACT .row .d2 textarea {
+  width: 100%;
+  height: 130px;
+  margin-top: 10px;
+}
+main #CONTACT .row .d2 .btn {
+  width: 50%;
+  height: 50px;
+  border-radius: 25px;
+  margin-left: 25%;
+}
+main #CONTACT .row .d3 {
+  margin-top: 50px;
+}
+main #CONTACT .row .d3 .divv a {
+  text-decoration: none;
+  margin-left: 3%;
+  color: #3f3e3e;
+}
+main #CONTACT .row .d3 .divv a:hover {
+  color: #00a4e4;
+}
+
+/*# sourceMappingURL=style.css.map */
